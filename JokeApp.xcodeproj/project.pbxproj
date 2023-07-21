@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18A54F652A6AFB810023018B /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A54F642A6AFB810023018B /* Constant.swift */; };
 		363E89FB2A39A46900B1E376 /* JokeRepository+CD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363E89FA2A39A46900B1E376 /* JokeRepository+CD.swift */; };
 		363E89FD2A39A7F100B1E376 /* PersistentStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363E89FC2A39A7F100B1E376 /* PersistentStorage.swift */; };
 		363E89FF2A39A8C600B1E376 /* CDJokeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363E89FE2A39A8C600B1E376 /* CDJokeList.swift */; };
@@ -45,6 +46,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		18A54F642A6AFB810023018B /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		363E89FA2A39A46900B1E376 /* JokeRepository+CD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JokeRepository+CD.swift"; sourceTree = "<group>"; };
 		363E89FC2A39A7F100B1E376 /* PersistentStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentStorage.swift; sourceTree = "<group>"; };
 		363E89FE2A39A8C600B1E376 /* CDJokeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDJokeList.swift; sourceTree = "<group>"; };
@@ -82,6 +84,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18A54F632A6AFB4D0023018B /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				18A54F642A6AFB810023018B /* Constant.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
 		36241F8A2A56033C00541E0E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -135,6 +145,7 @@
 		36AC1CCE2A3353AC009C8623 /* JokeApp */ = {
 			isa = PBXGroup;
 			children = (
+				18A54F632A6AFB4D0023018B /* Constant */,
 				363E89ED2A398AA100B1E376 /* CoreData */,
 				36C497932A3488C8000848BC /* Utility */,
 				36AC1CE32A335485009C8623 /* App Delegate */,
@@ -341,6 +352,7 @@
 				36AC1CE92A335588009C8623 /* JokeTableViewCell.swift in Sources */,
 				363E8A042A39AC2300B1E376 /* CoreData.xcdatamodeld in Sources */,
 				36AC1CD02A3353AC009C8623 /* AppDelegate.swift in Sources */,
+				18A54F652A6AFB810023018B /* Constant.swift in Sources */,
 				36C497A92A349B68000848BC /* StringUtility.swift in Sources */,
 				363E89FD2A39A7F100B1E376 /* PersistentStorage.swift in Sources */,
 				36AC1CD22A3353AC009C8623 /* SceneDelegate.swift in Sources */,
