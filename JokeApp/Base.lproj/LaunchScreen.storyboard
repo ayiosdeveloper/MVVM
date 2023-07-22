@@ -19,13 +19,21 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Splash" translatesAutoresizingMaskIntoConstraints="NO" id="a91-HF-doA">
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jokes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aFw-pD-FAy">
+                                <rect key="frame" x="148" y="405" width="97" height="42"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="a91-HF-doA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="7md-Cv-2Vp"/>
+                            <constraint firstItem="aFw-pD-FAy" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="GU4-RF-BAT"/>
                             <constraint firstItem="a91-HF-doA" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="-59" id="geh-Ef-w0G"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="a91-HF-doA" secondAttribute="bottom" constant="-34" id="mlZ-es-fwj"/>
+                            <constraint firstItem="aFw-pD-FAy" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="wWw-ok-Sv7"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="a91-HF-doA" secondAttribute="trailing" id="zT9-xk-kg1"/>
                         </constraints>
                     </view>
