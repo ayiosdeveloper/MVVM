@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'mac' }  // Ensures the pipeline runs on a macOS machine
+   agent any  // Ensures the pipeline runs on a macOS machine
 
     environment {
         LANG = "en_US.UTF-8"
