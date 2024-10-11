@@ -11,7 +11,7 @@ pipeline {
 
         stage('Clone Repository') {
             steps {
-                git branch: 'main', url: 'https://github.com/your-repo/ios-project.git'
+                git branch: 'main', url: 'https://github.com/ayiosdeveloper/MVVM.git'
             }
         }
 
@@ -32,8 +32,8 @@ pipeline {
             steps {
                 sh '''
                 xcodebuild clean test \\
-                -workspace YourApp.xcworkspace \\
-                -scheme YourApp \\
+                -workspace JokeApp.xcworkspace \\
+                -scheme JokeApp \\
                 -sdk iphonesimulator \\
                 -destination 'platform=iOS Simulator,name=iPhone 14,OS=latest' \\
                 CODE_SIGNING_ALLOWED=NO
